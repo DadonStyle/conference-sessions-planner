@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { getSessions } from "../../../api/sessions";
 import { useAgenda } from "../../../context/AgendaProvider/AgendaProvider";
 import { GeneralCard } from "../../../components/GeneralCard/GeneralCard";
@@ -31,19 +32,21 @@ const AgendaPage = () => {
         const hasConflicts = conflicts.length > 0;
 
         return (
-          <GeneralCard key={session.id}>
-            <div>{session.title}</div>
-            <div>{session.speaker}</div>
-            <div>
-              {session.time} - {session.endTime}
-            </div>
-            <div>{session.room}</div>
-            {hasConflicts && (
-              <div className={styles.warning}>
-                Time conflict with: {conflicts.map((c) => c.title).join(", ")}
+          <Link key={session.id} href={`/sessions/${session.id}`}>
+            <GeneralCard>
+              <div>{session.title}</div>
+              <div>{session.speaker}</div>
+              <div>
+                {session.time} - {session.endTime}
               </div>
-            )}
-          </GeneralCard>
+              <div>{session.room}</div>
+              {hasConflicts && (
+                <div className={styles.warning}>
+                  Time conflict with: {conflicts.map((c) => c.title).join(", ")}
+                </div>
+              )}
+            </GeneralCard>
+          </Link>
         );
       })}
     </div>
