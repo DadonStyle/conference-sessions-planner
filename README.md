@@ -21,8 +21,9 @@ The main trade off is the state, currently I've wrapped only the relevant tree (
 but the problem with context is that it renders the whole tree, if the project will be larger, state management will be 
 better.
 
-### Improve with mroe time
+### Improve with more time
 1. Everything that releated to empty states, warning states etc.
 2. Logs, for better debugging in the future.
 3. More time to plan this in scale. 
+4. More testing, even manually I usually test my code a lot.
 
