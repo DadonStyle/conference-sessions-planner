@@ -4,6 +4,7 @@ import Link from "next/link";
 import { SessionType, TrackType, TimeOfDayType } from "../../types";
 import { TRACKS, TIMES_OF_DAY } from "../../constants";
 import { useSessionFilters } from "../../hooks/useSessionFilters";
+import { useAgenda } from "../../context/AgendaProvider/AgendaProvider";
 import { SearchInput } from "../../components/SearchInput/SearchInput";
 import { GeneralCard } from "../../components/GeneralCard/GeneralCard";
 import styles from "./page.module.css";
@@ -22,6 +23,7 @@ const SessionsList = ({ sessions }: SessionsListProps) => {
     searchQuery,
     setSearchQuery,
   } = useSessionFilters(sessions);
+  const { isInAgenda } = useAgenda();
 
   return (
     <div className={styles.page}>
@@ -55,7 +57,10 @@ const SessionsList = ({ sessions }: SessionsListProps) => {
         {filteredSessions.map((session) => (
           <Link key={session.id} href={`/sessions/${session.id}`}>
             <GeneralCard>
-              <div>{session.title}</div>
+              <div>
+                {session.title}
+                {isInAgenda(session.id) && " - Already going"}
+              </div>
               <div>{session.speaker}</div>
               <div>
                 {session.time} - {session.endTime}
