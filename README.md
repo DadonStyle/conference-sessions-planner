@@ -1,8 +1,10 @@
 ## How to run
 npm i and than npm run dev.
 
+deployed version: https://conference-sessions-planner.vercel.app/
+
 ## Architecture
- - Data is initially loaded in the server, than for the filtering this is on the client side,
+ Data is initially loaded in the server, than for the filtering this is on the client side,
  I decided to filter in the client side for few reasons:
  1. its less load on our server (each filter is a new html that sent).
  2. works offline too if needed
