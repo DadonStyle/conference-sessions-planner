@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1",
+    "title": "Why i should hire Noam Dadon ?",
+    "speaker": "Noam Dadon",
+    "track": "Frontend",
+    "time": "09:00",
+    "endTime": "10:00",
+    "room": "Room A",
+    "description": "I'm hard worker with good commutication skills and managers love me because i know to handle people and tasks very well.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "2",
+    "title": "Advanced State Management Patterns",
+    "speaker": "Michael Torres",
+    "track": "Frontend",
+    "time": "10:30",
+    "endTime": "11:30",
+    "room": "Room B",
+    "description": "Modern approaches to managing complex application state.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "3",
+    "title": "CSS-in-JS vs CSS Modules",
+    "speaker": "Emma Wilson",
+    "track": "Frontend",
+    "time": "14:00",
+    "endTime": "15:00",
+    "room": "Room A",
+    "description": "Compare styling approaches and make informed decisions.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "4",
+    "title": "Web Performance Optimization",
+    "speaker": "Alex Rodriguez",
+    "track": "Frontend",
+    "time": "18:00",
+    "endTime": "19:00",
+    "room": "Room C",
+    "description": "Techniques to improve Core Web Vitals and user experience.",
+    "timeOfDay": "Evening"
+  },
+  {
+    "id": "5",
+    "title": "Microservices Architecture Patterns",
+    "speaker": "David Kim",
+    "track": "Backend",
+    "time": "09:00",
+    "endTime": "10:00",
+    "room": "Room B",
+    "description": "Design scalable distributed systems effectively.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "6",
+    "title": "Database Optimization Strategies",
+    "speaker": "Rachel Green",
+    "track": "Backend",
+    "time": "11:00",
+    "endTime": "12:00",
+    "room": "Room C",
+    "description": "Query optimization and indexing best practices.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "7",
+    "title": "GraphQL vs REST API Design",
+    "speaker": "James Park",
+    "track": "Backend",
+    "time": "14:00",
+    "endTime": "15:00",
+    "room": "Room B",
+    "description": "Choosing the right API architecture for your needs.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "8",
+    "title": "Serverless Backend Development",
+    "speaker": "Lisa Anderson",
+    "track": "Backend",
+    "time": "16:00",
+    "endTime": "17:00",
+    "room": "Room D",
+    "description": "Building scalable applications with serverless functions.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "9",
+    "title": "Container Orchestration with Kubernetes",
+    "speaker": "Chris Martinez",
+    "track": "DevOps",
+    "time": "10:00",
+    "endTime": "11:00",
+    "room": "Room A",
+    "description": "Deploy and manage containerized applications at scale.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "10",
+    "title": "CI/CD Pipeline Best Practices",
+    "speaker": "Nina Patel",
+    "track": "DevOps",
+    "time": "13:00",
+    "endTime": "14:00",
+    "room": "Room C",
+    "description": "Automate testing and deployment workflows efficiently.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "11",
+    "title": "Infrastructure as Code",
+    "speaker": "Tom Baker",
+    "track": "DevOps",
+    "time": "15:00",
+    "endTime": "16:00",
+    "room": "Room A",
+    "description": "Manage infrastructure with Terraform and automation.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "12",
+    "title": "Monitoring and Observability",
+    "speaker": "Sophie Taylor",
+    "track": "DevOps",
+    "time": "18:00",
+    "endTime": "19:00",
+    "room": "Room B",
+    "description": "Build comprehensive monitoring solutions for production systems.",
+    "timeOfDay": "Evening"
+  },
+  {
+    "id": "13",
+    "title": "Large Language Models in Production",
+    "speaker": "Daniel Lee",
+    "track": "AI",
+    "time": "09:30",
+    "endTime": "10:30",
+    "room": "Room C",
+    "description": "Deploy and scale LLM applications effectively.",
+    "timeOfDay": "Morning"
+  },
+  {
+    "id": "14",
+    "title": "Machine Learning Pipeline Design",
+    "speaker": "Olivia Brown",
+    "track": "AI",
+    "time": "13:00",
+    "endTime": "14:00",
+    "room": "Room D",
+    "description": "Build robust ML workflows from data to deployment.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "15",
+    "title": "Computer Vision Applications",
+    "speaker": "Marcus Johnson",
+    "track": "AI",
+    "time": "15:00",
+    "endTime": "16:00",
+    "room": "Room C",
+    "description": "Implement image recognition and object detection systems.",
+    "timeOfDay": "Afternoon"
+  },
+  {
+    "id": "16",
+    "title": "AI Ethics and Responsible Development",
+    "speaker": "Grace Liu",
+    "track": "AI",
+    "time": "19:00",
+    "endTime": "20:00",
+    "room": "Room A",
+    "description": "Building fair and transparent AI systems.",
+    "timeOfDay": "Evening"
+  }
+]

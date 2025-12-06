@@ -1,0 +1,20 @@
+.input {
+  padding: 8px;
+  border: 1px solid var(--gray-border);
+  border-radius: var(--border-radius);
+  background: var(--white);
+  width: 100%;
+  max-width: 140px;
+  box-shadow: var(--shadow-sm);
+}
+
+.input:hover {
+  border: 1px solid var(--black);
+  box-shadow: var(--shadow-md);
+}
+
+.input:focus {
+  border: 1px solid var(--black);
+  outline: none;
+  box-shadow: var(--shadow-lg);
+}

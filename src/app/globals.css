@@ -1,0 +1,55 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray-light: #f5f5f5;
+  --gray-hover: #f0f0f0;
+  --gray-active: #e0e0e0;
+  --gray-border: #e0e0e0;
+  --gray-disabled: #cccccc;
+  --gray-dark: #666666;
+  --border-radius: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 12px 20px rgba(0, 0, 0, 0.15), 0 6px 10px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--gray-light);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+select {
+  padding: 6px 10px;
+  border: 1px solid var(--gray-border);
+  border-radius: var(--border-radius);
+  background: var(--white);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+select:hover {
+  background: var(--gray-hover);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--black);
+}
+
+select:focus {
+  outline: none;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--black);
+}

@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid var(--gray-border);
+  gap: 12px;
+  background: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+}
+
+.nav a:hover {
+  background: var(--gray-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.nav a.active {
+  background: var(--gray-active);
+  font-weight: bold;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-border);
+}

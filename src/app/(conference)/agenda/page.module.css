@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.warning {
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px solid var(--black);
+  border-radius: var(--border-radius);
+  background: var(--gray-hover);
+  font-weight: 500;
+}

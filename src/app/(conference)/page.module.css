@@ -1,0 +1,43 @@
+.page {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-border);
+}
+
+.filterGroup {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filterGroup label {
+  font-weight: 500;
+}
+
+.sessions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sessions a {
+  display: block;
+  cursor: pointer;
+}
+
+.sessions a:hover > div {
+  background: var(--gray-hover);
+  box-shadow: var(--shadow-card-hover);
+}
